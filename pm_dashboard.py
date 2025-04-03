@@ -176,8 +176,8 @@ def load_data():
 
 # Load the data
 # Load the data
-df_pm25 = pd.read_csv('total_PM2.5_2011_2022_whole_italy_emissions.csv')
-df_pm10 = pd.read_csv('total_PM10_2011_2022_whole_italy_emissions.csv')
+df_pm25 = pd.read_csv('Data\total_PM2.5_2011_2022_whole_italy_emissions.csv')
+df_pm10 = pd.read_csv('Data\total_PM10_2011_2022_whole_italy_emissions.csv')
 
 # Sidebar for filtering
 st.sidebar.markdown('## Filters')
